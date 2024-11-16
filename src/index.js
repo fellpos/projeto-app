@@ -1,4 +1,4 @@
-import { registerRootComponent } from "expo";
-import App from './screens/drawer';
+import { registerRootComponent } from 'expo'
+import App from './screens/drawer'
 
 registerRootComponent(App)

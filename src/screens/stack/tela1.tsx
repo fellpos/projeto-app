@@ -4,7 +4,7 @@ export default function Tela1({ navigation }: any) {
     return (
         <View style={styles.view}>
             <Text style={styles.primaryText}>Clique para ir até a Tela 2:</Text>
-            <Pressable style={styles.button} onPress={() => navigation.navigate('Tela2')}>
+            <Pressable style={styles.button} onPress={() => navigation.navigate('Inicio')}>
                 <Text style={styles.buttonText}>Clique</Text>
             </Pressable>
         </View>

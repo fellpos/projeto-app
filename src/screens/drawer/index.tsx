@@ -39,7 +39,6 @@ export default function App() {
           drawerActiveBackgroundColor: '#665441',
           drawerStyle: styles.drawer,
           drawerItemStyle: styles.drawerItem,
-          drawerLabelStyle: styles.drawerLabel,
           headerTintColor: '#FFFFFF'
         }}
         />
@@ -133,8 +132,6 @@ const styles = StyleSheet.create({
   },
   drawerItem: {
     borderRadius: 30,
-  },
-  drawerLabel: {
   },
   texto: {
     fontSize: 20,
